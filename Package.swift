@@ -14,7 +14,6 @@ let package = Package(
     dependencies: [],
     targets: [
         .target(name: "connector", dependencies: [], path: "Sources"),
-        .testTarget(name: "connectorTests", dependencies: ["connector"]),
     ],
     swiftLanguageVersions: [.v5]
 )
