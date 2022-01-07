@@ -4,16 +4,16 @@
 import PackageDescription
 
 let package = Package(
-    name: "Connector",
+    name: "connector",
     platforms: [
         .iOS(.v9)
     ],
     products: [
-        .library(name: "Connector", targets: ["Connector"]),
+        .library(name: "connector", targets: ["connector"]),
     ],
     dependencies: [],
     targets: [
-        .target(name: "Connector", dependencies: [], path: "Sources"),
+        .target(name: "connector", dependencies: [], path: "Sources"),
     ],
     swiftLanguageVersions: [.v5]
 )
